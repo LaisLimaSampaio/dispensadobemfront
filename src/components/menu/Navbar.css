@@ -37,24 +37,28 @@
   transition: background-color 0.2s ease, color 0.2s ease;
   outline: none;
 }
-.cadastro{
-    align-items: center;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    justify-items: center;
+.cadastro-btn{
+    
+    margin: 0px;
+
+    text-align: start;
+    text-justify:auto;
     cursor: pointer;
     font-size: 1rem;
-    color: #2c3e50;
+    color: white;
     text-align: center;
-    padding: 8px;
+    padding: 15px;
     border-radius: 8px;
-    transition: background-color 0.2s ease, color 0.2s ease;
+    transition: ease 0.2s;
     border: none;
+    background-color: #FCA700;
+    outline: none;
+    text-decoration: none;
+    box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.363);
+
 }
-.cadastro:hover {
-  background-color: #FCA700;
-  color: white;
+.cadastro-btn:hover {
+    transform: scale(1.05);
 }
 .carrinho:hover {
   background-color: #FCA700;
