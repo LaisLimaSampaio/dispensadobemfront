@@ -1,0 +1,38 @@
+.cadastro-cliente-container {
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 1rem;
+
+}
+
+.cadastro-form label {
+  display: block;
+  margin-bottom: 0.5rem;
+}
+
+.cadastro-form input {
+  width: 100%;
+  padding: 0.3rem;
+  margin-top: 0.2rem;
+  margin-bottom: 1rem;
+  box-sizing: border-box;
+}
+
+.btn-submit {
+  padding: 0.5rem 1rem;
+  background-color: #FF0024;
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+.cadastro-form button:hover {
+  background-color: #FF0024;
+}
+
+.mensagem {
+  margin-top: 1rem;
+  font-weight: bold;
+  color: green;
+}

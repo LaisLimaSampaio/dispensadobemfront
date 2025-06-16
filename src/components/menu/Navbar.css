@@ -1,0 +1,62 @@
+.navbar {
+  display: flex;
+  justify-content:space-between;
+  align-items: center;
+  background-color: #ffffff;
+  padding: 1rem 2rem;
+  width: 96%;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  font-family: 'Poppins', sans-serif;
+  flex-direction: row;
+
+}
+.span{
+    color: #4AC7B5;
+
+}
+.navbar h1 {
+  font-size: 1.8rem;
+  color: #2c3e50;
+  margin: 0;
+  display: flex;
+  
+}
+
+.links {
+  display: flex;
+  gap: 1.5rem;
+}
+
+.links div {
+  cursor: pointer;
+  font-size: 1rem;
+  color: #2c3e50;
+  text-align: center;
+  padding: 8px;
+  border-radius: 8px;
+  transition: background-color 0.2s ease, color 0.2s ease;
+  outline: none;
+}
+.cadastro{
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    justify-items: center;
+    cursor: pointer;
+    font-size: 1rem;
+    color: #2c3e50;
+    text-align: center;
+    padding: 8px;
+    border-radius: 8px;
+    transition: background-color 0.2s ease, color 0.2s ease;
+    border: none;
+}
+.cadastro:hover {
+  background-color: #FCA700;
+  color: white;
+}
+.carrinho:hover {
+  background-color: #FCA700;
+  color: white;
+}
